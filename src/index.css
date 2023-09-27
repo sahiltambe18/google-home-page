@@ -6,3 +6,7 @@
 .btn{
     @apply px-3 rounded-sm text-slate-100 bg-[#c4c4c4]
 }
+
+.options{
+    @apply px-3 border-2 rounded-full hover:bg-[#f1f3f4]
+}

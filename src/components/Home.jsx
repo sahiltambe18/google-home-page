@@ -3,8 +3,19 @@ import Icon from '../assets/Nv.jsx'
 import google from '../assets/google.png'
 import { ImSearch, ImMic } from 'react-icons/im'
 import { BsKeyboardFill } from 'react-icons/bs'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
+
+
 
 const Home = () => {
+
+  
+
+  const [query, setQuery] = useState('');
+  
+
   return (
     <>
       <nav className='flex text-sm mb-28  items-center justify-end gap-6 p-4' >
@@ -16,15 +27,26 @@ const Home = () => {
       </nav>
       <div className='flex flex-col items-center gap-5'>
         <img className='w-36 sm:w-56' src={google} alt="google" />
-        <div className='h-11 w-72 sm:w-[32rem] text-slate-400 flex justify-between items-center p-2 border-[#E3E3E3] border-2 border-solid  rounded-full'>
+        <div className='h-11 w-72 sm:w-[32rem] text-slate-400 flex justify-between items-center p-2 border-[#E3E3E3] border-2 border-solid rounded-full'>
           <ImSearch />
-          <div className='flex gap-3'>
-            <BsKeyboardFill />
-            <ImMic />
+          <div className="search-input-container flex items-center gap-2">
+            <input
+              type="search"
+              name="search"
+              value={query}
+              onChange={(e) => { setQuery(e.target.value) }}
+              className="flex-1 bg-transparent border-none outline-none text-black placeholder-slate-400"
+              placeholder="Search..."
+            />
+            <div className='flex gap-3'>
+              <BsKeyboardFill />
+              <ImMic />
+            </div>
           </div>
         </div>
+
         <div className='flex gap-8'>
-          <button className='btn '>Search</button>
+          <Link to={`/search/${query}`} >Search</Link>
           <button className='btn'>Im feeling lucky</button>
         </div>
       </div>
