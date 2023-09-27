@@ -26,11 +26,3 @@ const App = () => {
 
 export default App;
 
-{/* <script async src="https://cse.google.com/cse.js?cx=90a9b70bcc35a4a92">
-</script>
-<div class="gcse-search"></div> */}
-
-
-// AIzaSyATQbxkAhiZ0GPisHhGgcsFKkfROUgP2eo
-
-// https://www.googleapis.com/customsearch/v1?key=AIzaSyATQbxkAhiZ0GPisHhGgcsFKkfROUgP2eo&cx=90a9b70bcc35a4a92&q=chatgpt#
