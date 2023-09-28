@@ -27,9 +27,9 @@ const Home = () => {
       </nav>
       <div className='flex flex-col items-center gap-5'>
         <img className='w-36 sm:w-56' src={google} alt="google" />
-        <div className='h-11 w-72 sm:w-[32rem] text-slate-400 flex justify-between items-center p-2 border-[#E3E3E3] border-2 border-solid rounded-full'>
+        <div className='h-11 w-72 sm:w-[32rem] text-slate-400 flex justify-start gap-2 items-center p-2 border-[#E3E3E3] border-2 border-solid rounded-full'>
           <ImSearch />
-          <div className="search-input-container flex items-center gap-2">
+          <div className="w-11/12 flex items-center gap-2">
             <input
               type="search"
               name="search"
@@ -46,7 +46,7 @@ const Home = () => {
         </div>
 
         <div className='flex gap-8'>
-          <Link to={`/search/${query}`} >Search</Link>
+          <Link className='btn' to={`/search/${query}`} >Search</Link>
           <button className='btn'>Im feeling lucky</button>
         </div>
       </div>
