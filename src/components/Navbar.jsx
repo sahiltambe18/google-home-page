@@ -11,10 +11,12 @@ const Navbar = () => {
 
     const [query, setQuery] = useState(Query)
 
+    
+
     return (
         <nav className='border-b '>
             <div className='flex flex-col sm:flex-row  items-center gap-1 sm:gap-8 w-screen p-3 sm:p-5'>
-                <img className='w-16 sm:w-36' src={google} alt="google" />
+                <Link to={'/'}><img  className='w-16 sm:w-36' src={google} alt="google" /></Link>
                 <div className='h-11 w-11/12 sm:w-5/12 text-slate-400 sm:text-2xl flex justify-start gap-2 sm:justify-between items-center p-2 border-[#E3E3E3] border-2 border-solid rounded-full'>
 
                     <div className="w-11/12 flex items-center gap-2">
@@ -26,7 +28,7 @@ const Navbar = () => {
                             className="flex-1 w-11/12 bg-transparent border-none outline-none text-black placeholder-slate-400"
                             placeholder="Search..."
                         />
-                        <ImSearch />
+                        <a href={`/search/${query}`} ><ImSearch /></a>
                     </div>
                 </div>
             </div>
