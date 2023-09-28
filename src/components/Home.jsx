@@ -1,10 +1,12 @@
-import Profile from '../../public/Profile.jpeg'
+// import Profile from '../../public/Profile.jpeg'
 import Icon from '../assets/Nv.jsx'
 import google from '../assets/google.png'
 import { ImSearch, ImMic } from 'react-icons/im'
 import { BsKeyboardFill } from 'react-icons/bs'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+
+const Profile = "https://media.licdn.com/dms/image/D4D03AQGF4s_-VKiesA/profile-displayphoto-shrink_100_100/0/1676294948698?e=1701302400&v=beta&t=A5iw8f1S3rMt3cZfhnm7q6bCv27CVo2_OXuBtt9cPzI"
 
 const Home = () => {
 
