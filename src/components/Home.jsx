@@ -1,13 +1,10 @@
-import Profile from '../assets/Profile.jpeg'
+import Profile from '../../public/Profile.jpeg'
 import Icon from '../assets/Nv.jsx'
 import google from '../assets/google.png'
 import { ImSearch, ImMic } from 'react-icons/im'
 import { BsKeyboardFill } from 'react-icons/bs'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-
-
-
 
 const Home = () => {
 
