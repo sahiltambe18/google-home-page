@@ -1,0 +1,248 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - chatgpt",
+        "totalResults": "11680000000",
+        "searchTerms": "chatgpt",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "90a9b70bcc35a4a92",
+        "searchType": "image"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - chatgpt",
+        "totalResults": "11680000000",
+        "searchTerms": "chatgpt",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "90a9b70bcc35a4a92",
+        "searchType": "image"
+      }
+    ]
+  },
+  "context": {
+    "title": "Google"
+  },
+  "searchInformation": {
+    "searchTime": 0.573007,
+    "formattedSearchTime": "0.57",
+    "totalResults": "11680000000",
+    "formattedTotalResults": "11,680,000,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "How ChatGPT Works: The Model Behind The Bot | by Molly Ruby ...",
+      "htmlTitle": "How <b>ChatGPT</b> Works: The Model Behind The Bot | by Molly Ruby ...",
+      "link": "https://miro.medium.com/v2/resize:fit:1400/1*OhWzHPkxXbslpwYyCZ2HKA.png",
+      "displayLink": "towardsdatascience.com",
+      "snippet": "How ChatGPT Works: The Model Behind The Bot | by Molly Ruby ...",
+      "htmlSnippet": "How <b>ChatGPT</b> Works: The Model Behind The Bot | by Molly Ruby ...",
+      "mime": "image/png",
+      "fileFormat": "image/png",
+      "image": {
+        "contextLink": "https://towardsdatascience.com/how-chatgpt-works-the-models-behind-the-bot-1ce5fca96286",
+        "height": 984,
+        "width": 1400,
+        "byteSize": 395353,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtPoR8alG_Bme_zeqD685fY7v6kdsYtBAyW-dLtyz8YW-mnOO6eT3jhA&s",
+        "thumbnailHeight": 105,
+        "thumbnailWidth": 150
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "ChatGPT reaches 100 million users two months after launch ...",
+      "htmlTitle": "<b>ChatGPT</b> reaches 100 million users two months after launch ...",
+      "link": "https://i.guim.co.uk/img/media/54473a6bbec3abc8a550cb6f03f175afdec7b1b8/0_267_5035_3021/master/5035.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=5f89d851b3d196a04f1d2ee07c1e55d6",
+      "displayLink": "www.theguardian.com",
+      "snippet": "ChatGPT reaches 100 million users two months after launch ...",
+      "htmlSnippet": "<b>ChatGPT</b> reaches 100 million users two months after launch ...",
+      "mime": "image/jpeg",
+      "fileFormat": "image/jpeg",
+      "image": {
+        "contextLink": "https://www.theguardian.com/technology/2023/feb/02/chatgpt-100-million-users-open-ai-fastest-growing-app",
+        "height": 1200,
+        "width": 1200,
+        "byteSize": 88328,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR0JrEbg2qg5gnVJOSoo7flYp96DFVsartovG0_KwQUAx-JmeXpBz2cFdZ&s",
+        "thumbnailHeight": 150,
+        "thumbnailWidth": 150
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How to use ChatGPT as a learning tool",
+      "htmlTitle": "How to use <b>ChatGPT</b> as a learning tool",
+      "link": "https://www.apa.org/images/2023-06-chatgpt-tile_tcm7-315735.jpg",
+      "displayLink": "www.apa.org",
+      "snippet": "How to use ChatGPT as a learning tool",
+      "htmlSnippet": "How to use <b>ChatGPT</b> as a learning tool",
+      "mime": "image/jpeg",
+      "fileFormat": "image/jpeg",
+      "image": {
+        "contextLink": "https://www.apa.org/monitor/2023/06/chatgpt-learning-tool",
+        "height": 380,
+        "width": 740,
+        "byteSize": 46075,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbpB_ylS486ag5De-veOqrQd_CzFjilFyVV7BHNxqRk4nI0Q5utiQCQ&s",
+        "thumbnailHeight": 72,
+        "thumbnailWidth": 141
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "ChatGPT: Educational friend or foe? | Brookings",
+      "htmlTitle": "<b>ChatGPT</b>: Educational friend or foe? | Brookings",
+      "link": "https://www.brookings.edu/wp-content/uploads/2023/01/shutterstock_2237655785.jpg",
+      "displayLink": "www.brookings.edu",
+      "snippet": "ChatGPT: Educational friend or foe? | Brookings",
+      "htmlSnippet": "<b>ChatGPT</b>: Educational friend or foe? | Brookings",
+      "mime": "image/jpeg",
+      "fileFormat": "image/jpeg",
+      "image": {
+        "contextLink": "https://www.brookings.edu/articles/chatgpt-educational-friend-or-foe/",
+        "height": 3000,
+        "width": 4500,
+        "byteSize": 5673131,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8TFG4rzrY3BwPnfo2i2ZxKaKd2mDymUAD4kfrSOpPq0FP142aOZeC8A&s",
+        "thumbnailHeight": 100,
+        "thumbnailWidth": 150
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Is ChatGPT Here to Stay? Content Marketing's Future",
+      "htmlTitle": "Is <b>ChatGPT</b> Here to Stay? Content Marketing&#39;s Future",
+      "link": "https://www.hausmanmarketingletter.com/wp-content/uploads/2023/05/64063dbcad97bd421b437096_chatgpt.jpg",
+      "displayLink": "www.hausmanmarketingletter.com",
+      "snippet": "Is ChatGPT Here to Stay? Content Marketing's Future",
+      "htmlSnippet": "Is <b>ChatGPT</b> Here to Stay? Content Marketing&#39;s Future",
+      "mime": "image/jpeg",
+      "fileFormat": "image/jpeg",
+      "image": {
+        "contextLink": "https://www.hausmanmarketingletter.com/is-chatgpt-here-to-stay-content-marketings-future/",
+        "height": 730,
+        "width": 1200,
+        "byteSize": 21718,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Y1oA5Dx-K12-xBVkD5SZICC3GMpxHT8eIO5ASs7hPjwQ3aMACraGz-Y&s",
+        "thumbnailHeight": 91,
+        "thumbnailWidth": 150
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What is ChatGPT & Why Does it Matter to Your Business?",
+      "htmlTitle": "What is <b>ChatGPT</b> &amp; Why Does it Matter to Your Business?",
+      "link": "https://www.klippa.com/wp-content/uploads/2023/01/ChatGPT-preview.jpg",
+      "displayLink": "www.klippa.com",
+      "snippet": "What is ChatGPT & Why Does it Matter to Your Business?",
+      "htmlSnippet": "What is <b>ChatGPT</b> &amp; Why Does it Matter to Your Business?",
+      "mime": "image/jpeg",
+      "fileFormat": "image/jpeg",
+      "image": {
+        "contextLink": "https://www.klippa.com/en/blog/information/what-is-chatgpt/",
+        "height": 2083,
+        "width": 2500,
+        "byteSize": 103375,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ03UIGMRslDSifeqyndOrTwpeTLxkK36setrJOl4ZJricXcqnWEOOfEVU&s",
+        "thumbnailHeight": 125,
+        "thumbnailWidth": 150
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What Is Chat GPT: Basics For Product Development In 2023",
+      "htmlTitle": "What Is <b>Chat GPT</b>: Basics For Product Development In 2023",
+      "link": "https://assets.website-files.com/6344c9cef89d6f2270a38908/64148ed756708f9b82464c96_image-of-hand-holding-an-ai-face-looking-at-the-words-chatgpt-openai.webp",
+      "displayLink": "aloa.co",
+      "snippet": "What Is Chat GPT: Basics For Product Development In 2023",
+      "htmlSnippet": "What Is <b>Chat GPT</b>: Basics For Product Development In 2023",
+      "mime": "image/webp",
+      "fileFormat": "image/webp",
+      "image": {
+        "contextLink": "https://aloa.co/blog/what-is-chat-gpt-understanding-the-basics-for-product-development-in-2023",
+        "height": 800,
+        "width": 1200,
+        "byteSize": 45432,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqMuawzjVut6SRwVussuBKyIUN0sfyNVZjPion3kN-L098Dq_S8cvlikE&s",
+        "thumbnailHeight": 100,
+        "thumbnailWidth": 150
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What Is ChatGPT? A Review Of The AI In Its Own Words – Forbes Advisor",
+      "htmlTitle": "What Is <b>ChatGPT</b>? A Review Of The AI In Its Own Words – Forbes Advisor",
+      "link": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/03/ChatGPT-scaled-e1678433827524_0_article_image.jpg",
+      "displayLink": "www.forbes.com",
+      "snippet": "What Is ChatGPT? A Review Of The AI In Its Own Words – Forbes Advisor",
+      "htmlSnippet": "What Is <b>ChatGPT</b>? A Review Of The AI In Its Own Words – Forbes Advisor",
+      "mime": "image/jpeg",
+      "fileFormat": "image/jpeg",
+      "image": {
+        "contextLink": "https://www.forbes.com/advisor/business/software/what-is-chatgpt/",
+        "height": 506,
+        "width": 900,
+        "byteSize": 24565,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThvV2qon5-Vf5NBC8YNYE7F9yhklLfH02q97QM1bhDEN24ahFunG3dIg&s",
+        "thumbnailHeight": 82,
+        "thumbnailWidth": 146
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What Is ChatGPT? Everything You Need to Know About the AI Tool",
+      "htmlTitle": "What Is <b>ChatGPT</b>? Everything You Need to Know About the AI Tool",
+      "link": "https://i.insider.com/64e3900db698ac0019de3b13?width=1136&format=jpeg",
+      "displayLink": "www.businessinsider.com",
+      "snippet": "What Is ChatGPT? Everything You Need to Know About the AI Tool",
+      "htmlSnippet": "What Is <b>ChatGPT</b>? Everything You Need to Know About the AI Tool",
+      "mime": "image/",
+      "fileFormat": "image/",
+      "image": {
+        "contextLink": "https://www.businessinsider.com/everything-you-need-to-know-about-chat-gpt-2023-1",
+        "height": 852,
+        "width": 1136,
+        "byteSize": 55812,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu_1v_1cFd6s085q7cvQUIhRuWPynoxMFC2uhP4bi0A9dW6jV_gvlmtA&s",
+        "thumbnailHeight": 112,
+        "thumbnailWidth": 150
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What is ChatGPT? Everything you need to know about the AI chatbot ...",
+      "htmlTitle": "What is <b>ChatGPT</b>? Everything you need to know about the AI chatbot ...",
+      "link": "https://helios-i.mashable.com/imagery/articles/02zjIJzv8sSbCiUkQNOPxGC/hero-image.fill.size_1248x702.v1675198814.jpg",
+      "displayLink": "mashable.com",
+      "snippet": "What is ChatGPT? Everything you need to know about the AI chatbot ...",
+      "htmlSnippet": "What is <b>ChatGPT</b>? Everything you need to know about the AI chatbot ...",
+      "mime": "image/jpeg",
+      "fileFormat": "image/jpeg",
+      "image": {
+        "contextLink": "https://mashable.com/article/what-is-chatgpt",
+        "height": 702,
+        "width": 1248,
+        "byteSize": 299372,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-4mqQENzCNYsLQi5zxpMg3ksB4viMwwXsvqVP37BoVyq0aPJtmGeDw&s",
+        "thumbnailHeight": 84,
+        "thumbnailWidth": 150
+      }
+    }
+  ]
+}
