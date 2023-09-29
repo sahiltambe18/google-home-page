@@ -36,7 +36,6 @@ const Navbar = () => {
                 <Link to={`/search/${query}`} className='options' >All</Link>
                 <Link to={`/images/${query}`} className='options'>Images</Link>
                 <Link to={`/videos/${query}`} className='options'>Videos</Link>
-                <Link to={`/shopping/${query}`} className='options'>Shopping</Link>
             </ul>
         </nav>
     )

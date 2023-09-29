@@ -1,4 +1,4 @@
-// import Profile from '../../public/Profile.jpeg'
+
 import Icon from '../assets/Nv.jsx'
 import google from '../assets/google.png'
 import { ImSearch, ImMic } from 'react-icons/im'
@@ -22,7 +22,7 @@ const Home = () => {
         <p>Gmail</p>
         <p>Images</p>
         <Icon />
-        <img className='w-10 rounded-full' src={Profile} alt="profile" />
+        <Link to={'https://www.linkedin.com/in/sahil-tambe-77b181230/'}><img className='w-10 rounded-full' src={Profile} alt="profile" /></Link>
       </nav>
       <div className='flex flex-col items-center gap-5'>
         <img className='w-36 sm:w-56' src={google} alt="google" />
@@ -46,7 +46,7 @@ const Home = () => {
 
         <div className='flex gap-8'>
           <Link className='btn' to={`/search/${query}`} >Search</Link>
-          <button className='btn'>Im feeling lucky</button>
+          <Link className='btn' to={`/images/${query}`} >Im feeling lucky</Link>
         </div>
       </div>
       <footer className='bg-[#F2F2F2F2] text-slate-500 flex gap-3 flex-col p-2  w-screen absolute bottom-0'>
