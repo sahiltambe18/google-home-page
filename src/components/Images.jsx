@@ -9,7 +9,7 @@ const Images = () => {
 
   const [data, setData] = useState([])
 
-
+//fetching data
   useEffect(() => {
     try {
       getData(query , setData ,2)
@@ -18,6 +18,7 @@ const Images = () => {
     }
   }, [query])
 
+  //consverting them into jsx components
   const vids = data.map(item => (
     <div className='text-[#75777a] overflow-clip' key={item.link} >
       <Link to={item.image.contextLink}><img className='h-40 w-80 sm:w-96 sm:h-44 rounded-md hover:shadow-2xl ' src={item.link} alt={item.title} /></Link>

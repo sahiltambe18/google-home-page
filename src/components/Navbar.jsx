@@ -11,6 +11,7 @@ const Navbar = () => {
     
     let navigate = useNavigate();
 
+    // for handling keypress
     const handleKeyPress = (e) => {
         if (e.code === 'Enter') {
             return navigate(`/search/${query}`)

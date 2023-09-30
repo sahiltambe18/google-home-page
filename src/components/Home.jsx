@@ -10,8 +10,7 @@ const Profile = "https://media.licdn.com/dms/image/D4D03AQGF4s_-VKiesA/profile-d
 
 const Home = () => {
 
-  
-
+  //state for query
   const [query, setQuery] = useState('');
   
 
@@ -45,6 +44,8 @@ const Home = () => {
         </div>
 
         <div className='flex gap-8'>
+
+          {/* redirect to /search */}
           <Link className='btn' to={`/search/${query}`} >Search</Link>
           <Link className='btn' to={`/images/${query}`} >Im feeling lucky</Link>
         </div>
