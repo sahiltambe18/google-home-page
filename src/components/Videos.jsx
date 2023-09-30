@@ -1,27 +1,20 @@
 import { Link, useParams } from 'react-router-dom'
-import axios from 'axios';
+import { getData } from '../utils/data'
 import { useEffect } from 'react';
 import { useState } from 'react';
 
 const Videos = () => {
 
   const query = useParams().query;
-
-  const key = import.meta.env.VITE_REACT_APP_SEARCH_API
-  
-
-  const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=${query}&type=video&key=${key}`;
-
   const [data, setData] = useState([])
 
   useEffect(() => {
     try {
-      axios.get(url)
-        .then((res) => { setData(res.data.items) })
+      getData(query , setData ,3)
     } catch (e) {
       console.log(e)
     }
-  }, [])
+  }, [query])
 
   const vids = data.map(item => {
 

@@ -19,7 +19,7 @@ const Home = () => {
     <>
       <nav className='flex text-sm mb-28  items-center justify-end gap-6 p-4' >
 
-        <p>Gmail</p>
+        <a href='mailto:sahiltambe81922@gmail.com' >Gmail</a>
         <p>Images</p>
         <Icon />
         <Link to={'https://www.linkedin.com/in/sahil-tambe-77b181230/'}><img className='w-10 rounded-full' src={Profile} alt="profile" /></Link>
